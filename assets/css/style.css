@@ -1,0 +1,200 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    line-height: 1.5;
+}
+.row,
+.row:after,
+.row:before{
+    clear: both;
+    display: table;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+.primary-btn{
+    background-color: #00bc9c;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #00a085;
+    transition: all 0.3s;
+}
+.primary-btn:hover,.primary-btn:focus, .primary-btn:active{
+    color: #00bc9c;
+    background-color: #fff;
+    border: 1px solid #00a085;
+    box-shadow: none;
+}
+.w-70{
+    width: 70%;
+}
+.heading-pri{
+    font-size: 44px;
+    color: #506a85;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.para{
+    font-size: 22px;
+    color: #73879c;
+    margin-bottom: 80px;
+}
+/* ========================= Header Section CSS ========================= */
+.navbar-brand{
+    width: 160px;
+    padding: 0px !important;
+    margin-right: 70px;
+}
+.navbar-brand img{
+    width: 100%;
+}
+.contactHeader{
+    background-color: #f5f7fa;
+    padding: 15px 0;
+    border-bottom: 1px solid #e6e9ed;
+}
+.headerLink li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.headerLink li i{
+    margin-right: 10px;
+    font-size: 12px;
+    color: #506a85;
+}
+.headerLink li a{
+    font-size: 12px;
+    color: #506a85;
+}
+.rightLink li i{
+    margin: 0;
+}
+.mainHeader{
+    padding: 35px 0;
+}
+.mainHeader nav.navbar.navbar-default{
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+}
+.mainHeader .navbar-nav>li{
+    margin: 0 5px;
+}
+.mainHeader .nav>li>a {
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.mainHeader .navbar-default .navbar-nav>.active>a, 
+.mainHeader .navbar-default .navbar-nav>.open>a,
+.mainHeader .navbar-default .navbar-nav>li:hover >a,
+.mainHeader .navbar-default .navbar-nav>li:focus >a,
+.mainHeader .navbar-default .navbar-nav>li:active >a {
+    background-color: #506a85;
+    background-image: none;
+    border-radius: 3px;
+    color: #fff;
+}
+.mainHeader .Search {
+    position: relative;
+}
+.mainHeader .Search input{
+    transform: scaleX(0);
+    transition: all 0.4s;
+    transform-origin: right;
+    opacity: 0;
+}
+.mainHeader .Search input.show{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.mainHeader .Search i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #536d87;
+}
+/* ========================= Slider Section CSS ========================= */
+
+.mainSlider .carousel-caption {    
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mainSlider .carousel-caption.heading-break.text-left {    
+    top: 35%;
+    transform: translateY(-35%);
+}
+.mainSlider .carousel-caption.heading-break.text-right, .mainSlider .carousel-caption.t-20{    
+    top: 20%;
+    transform: translateY(-20%);
+}
+
+.mainSlider .carousel-caption h3{
+    font-size: 60px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.mainSlider .carousel-caption p{
+    font-size: 24px;
+    color: #a3b1bf;
+    margin-bottom: 70px;
+}
+.mainSlider .carousel-caption.text-right{
+    text-align: right;
+}
+.mainSlider .carousel-caption.text-left{
+    text-align: left;
+}
+.mainSlider .carousel-caption.heading-break span{
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-color: #506a85;
+    padding: 10px;
+}
+/* ========================= Beautiful Section CSS ========================= */
+
+.beautiful{
+    padding: 110px 0;
+}
+.heading-primary{
+    font-size: 44px;
+    color: #506a85;
+    margin-bottom: 40px;
+}
+.para{
+    font-size: 22px;
+    color: #73879c;
+    margin-bottom: 80px;
+}
+.myThumbnail i{
+    font-size: 55px;
+    color: #00bc9c;
+}
+.thumbHeading{
+    font-size: 26px;
+    color: #506a85;
+    text-transform: capitalize;
+    margin: 0 0 30px;
+    font-weight: bold;
+}
+.thumbPara{
+    font-size: 16px;
+    color: #73879c;
+    margin-bottom: 20px;
+}
+/* ========================= latestWorks Section CSS ========================= */
+
+.latestWorks{
+    padding: 130px 0;
+    background-color: #f2f5f7;
+}
